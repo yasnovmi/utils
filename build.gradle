@@ -23,7 +23,7 @@ plugins {
     id 'org.springframework.boot' version '2.2.5.RELEASE' apply false
 }
 
-group 'ru.touchin.maven'
+group 'ru.touchin'
 version '1.0'
 
 apply plugin: 'kotlin'
