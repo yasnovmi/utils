@@ -27,8 +27,6 @@ group 'ru.touchin.maven'
 version '1.0'
 
 apply plugin: 'kotlin'
-apply plugin: 'kotlin-spring'
-apply plugin: 'kotlin-jpa'
 apply plugin: 'eclipse'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'maven'
@@ -47,11 +45,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly "org.springframework.data:spring-data-commons"
-    compileOnly "org.junit.jupiter:junit-jupiter"
-    compileOnly "org.mockito:mockito-core"
-    compileOnly "io.projectreactor.kotlin:reactor-kotlin-extensions"
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    compileOnly "io.projectreactor.kotlin:reactor-kotlin-extensions"
 }
 
 uploadArchives {
